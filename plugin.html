@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alchemy SMP Plugin Info</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0e0e0e;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    nav {
+      background: #151515;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav button {
+      background: #292929;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    nav button:hover {
+      background: #444;
+    }
+    section#plugin-info {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      max-width: 900px;
+      margin: auto;
+      padding: 4rem 2rem;
+    }
+    section#plugin-info > div.text-content {
+      flex: 1;
+    }
+    section#plugin-info > div.image-content {
+      flex: 0 0 300px;
+    }
+    section#plugin-info img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1368018565944316025/1373490519035875418/alchemysmp-final.png?ex=683bbdb9&is=683a6c39&hm=dbec983720bc6714ffe4152d487e73cfdc046cfa38ccff99462a21c99d2d73d2&" alt="Alchemy SMP Logo" />
+    <p>Custom Plugin, PvP, Events, and more...</p>
+  </header>
+
+  <nav>
+    <button onclick="window.location.href='rules.html#Rules'">Rules</button>
+    <button onclick="window.location.href='index.html'">Home</button>
+    <button onclick="window.location.href='kit.html#Kit'">Kit</button>
+  </nav>
+
+  <section id="plugin-info">
+    <div class="text-content">
+      <h2 class="section-title">Alchemy SMP Plugin</h2>
+      <p>
+        Everyone starts off with the ability to only carry <strong>3 potions</strong> at a time. Any extra potions beyond that limit are instantly dropped.
+      </p>
+      <p>
+        To increase your potion capacity, you’ll need to <strong>kill other players</strong>. Each kill grants you <strong>+1 Alchemy</strong>, which lets you hold one more potion than before.
+        But be careful <strong>dying sets you back</strong>, removing <strong>-1 Alchemy</strong> and lowering your potion limit by one.
+      </p>
+      <p>
+        If you die while at <strong>0 Alchemy</strong>, you go into the negatives and that means an <strong>instant death ban</strong>.
+      </p>
+      <p>
+        You can increase your potion limit up to a maximum of <strong>10</strong>. So choose your fights wisely… every death or kill has real consequences.
+      </p>
+      <p>
+        But die? You lose <strong>-1 Timepoint</strong>.<br />
+        Drop below 0, and you start slowing down.<br />
+        Hit <strong>-6</strong>… and you’re <strong>death banned</strong>.
+      </p>
+    </div>
+    <div class="image-content">
+      <img src="https://cdn.discordapp.com/attachments/1368018565944316025/1373490610018848888/LOGO.png?ex=683bbdcf&is=683a6c4f&hm=38e9c4c8def42b453a7acd5b128e0f1bb91122ad3f2831701104075c6d834b2f&" alt="Alchemy SMP Secondary Logo" />
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Alchemy SMP. Coming Soon!.
+  </footer>
+
+</body>
+</html>

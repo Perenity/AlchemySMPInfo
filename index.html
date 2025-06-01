@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alchemy SMP Info</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0e0e0e;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+
+    nav {
+      background: #151515;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav button {
+      background: #292929;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    nav button:hover {
+      background: #444;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #0084ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .button-link:hover {
+      background-color: #005fcc;
+    }
+
+    .button-link.small-button {
+      margin-left: 1rem;
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+
+    #members {
+      background: #1a1a1a;
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    #members h3 {
+      color: #ffd700;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+
+    ul.member-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    ul.member-list li {
+      padding: 0.3rem 0;
+      font-size: 1.1rem;
+      border-bottom: 1px solid #333;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    ul.member-list li:last-child {
+      border-bottom: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1368018565944316025/1373490519035875418/alchemysmp-final.png?ex=683bbdb9&is=683a6c39&hm=dbec983720bc6714ffe4152d487e73cfdc046cfa38ccff99462a21c99d2d73d2&" 
+         alt="Alchemy SMP Logo" />
+    <p>Custom Plugin, PvP, Events, and more...</p>
+  </header>
+
+  <nav>
+    <button onclick="window.location.href='rules.html'">Rules</button>
+    <button onclick="window.location.href='kit.html'">Kit</button>
+    <button onclick="window.location.href='plugin.html'">Plugin</button>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About the SMP</h2>
+    <p>This SMP is a Content Creator SMP Only! With a unique plugin, events, and new potions. Whether you're a builder or a fighter, there's something for you here.</p>
+  </section>
+
+  <section id="members">
+    <h2 class="section-title">Server List</h2>
+
+    <!-- Developers -->
+    <div class="member-group">
+      <h3>Developers</h3>
+      <ul class="member-list">
+        <li>
+          <span>Perenity</span>
+          <a href="https://www.youtube.com/@PerenityReal" class="button-link small-button" target="_blank">Perenity's YouTube Channel</a>
+        </li>
+        <li>
+          <span>Rxid</span>
+          <a href="https://www.youtube.com/@RIXD_" class="button-link small-button" target="_blank">Rxid's YouTube Channel</a>
+        </li>
+        <li>
+          <span>DoorClub</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Texture Creator -->
+    <div class="member-group">
+      <h3>Texture Creator</h3>
+      <ul class="member-list">
+        <li>
+          <span>Huskey</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Tier Tester -->
+    <div class="member-group">
+      <h3>Tier Tester</h3>
+      <ul class="member-list">
+        <li>
+          <span>L247Chaos</span>
+          <a href="https://www.youtube.com/@l247chaos" class="button-link small-button" target="_blank">L247Chaos's YouTube Channel</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Owners -->
+    <div class="member-group">
+      <h3>Owners</h3>
+      <ul class="member-list">
+        <li>
+          <span>Perenity</span>
+          <a href="https://www.youtube.com/@PerenityReal" class="button-link small-button" target="_blank">Perenity's YouTube Channel</a>
+        </li>
+        <li>
+          <span>Split</span>
+          <a href="https://www.youtube.com/@ItzSplit_" class="button-link small-button" target="_blank">Split's YouTube Channel</a>
+        </li>
+        <li>
+          <span>Devower</span>
+          <a href="https://www.youtube.com/channel/UC85gtFbeaQ8ed_eBOzKAsxg" class="button-link small-button" target="_blank">Devower's YouTube Channel</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Members -->
+    <div class="member-group">
+      <h3>Members</h3>
+      <ul class="member-list">
+        <li>
+          <span>Decayed</span>
+          <a href="https://www.youtube.com/@DecayedMC" class="button-link small-button" target="_blank">Decayed's YouTube Channel</a>
+        </li>
+        <li>
+          <span>ArKillz</span>
+          <a href="https://www.youtube.com/@Arkilz/featured" class="button-link small-button" target="_blank">ArKillz's YouTube Channel</a>
+        </li>
+        <li>
+          <span>OakTown</span>
+          <a href="https://www.youtube.com/@oaktown920" class="button-link small-button" target="_blank">OakTown's YouTube Channel</a>
+        </li>
+        <li>
+          <span>Nisultra</span>
+          <a href="https://www.youtube.com/@Nosta109" class="button-link small-button" target="_blank">Nisultra's YouTube Channel</a>
+        </li>
+        <li>
+          <span>Xotic</span>
+          <a href="https://www.twitch.tv/titian_xotiic1" class="button-link small-button" target="_blank">Xotic's Twitch Channel</a>
+        </li>
+        <li>
+          <span>Rxid</span>
+          <a href="https://www.youtube.com/@RIXD_" class="button-link small-button" target="_blank">Rxid's YouTube Channel</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Alchemy SMP. Coming Soon!
+  </footer>
+
+</body>
+</html>

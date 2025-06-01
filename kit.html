@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alchemy SMP Plugin Info</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0e0e0e;
+      color: white;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 2rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 600px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 1rem auto;
+    }
+    nav {
+      background: #151515;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav button {
+      background: #292929;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      margin: 0 0.5rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    nav button:hover {
+      background: #444;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffd700;
+    }
+    .kit-container {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .kit-text {
+      flex: 1 1 500px;
+    }
+    .kit-image {
+      flex: 1 1 300px;
+      max-width: 400px;
+      text-align: center;
+    }
+    .kit-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 2px solid #444;
+    }
+    .kit-button {
+      margin-top: 1rem;
+    }
+    .kit-button a {
+      display: inline-block;
+      background: #292929;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .kit-button a:hover {
+      background: #444;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      color: #aaa;
+    }
+    ul {
+      line-height: 2;
+      padding-left: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://cdn.discordapp.com/attachments/1368018565944316025/1373490519035875418/alchemysmp-final.png?ex=683bbdb9&is=683a6c39&hm=dbec983720bc6714ffe4152d487e73cfdc046cfa38ccff99462a21c99d2d73d2&" alt="Alchemy SMP Logo" />
+    <p>Custom Plugin, PvP, Events, and more...</p>
+  </header>
+
+  <nav>
+    <button onclick="window.location.href='rules.html#Rules'">Rules</button>
+    <button onclick="window.location.href='index.html'">Home</button>
+    <button onclick="window.location.href='plugin.html#Kit'">Plugin</button>
+  </nav>
+
+  <section id="Kit">
+    <h2 class="section-title">Alchemy SMP Kit</h2>
+
+    <div class="kit-container">
+      <div class="kit-text">
+        <h3 class="section-title" style="color: #00ff15;">Restricted Items</h3>
+        <p>The following items are restricted per player. You are only allowed to carry these specific amounts during PvP or events:</p>
+        <ul>
+          <li>Pearls <strong>*x4*</strong></li>
+          <li>Totem <strong>*x1*</strong></li>
+          <li>Golden Apples <strong>*x64*</strong></li>
+          <li>God Apples <strong>*x3*</strong></li>
+          <li>XP Bottles <strong>*x192*</strong></li>
+          <li>Armor Set <strong>*x1 Full Set*</strong></li>
+          <li>Shield <strong>*x1*</strong></li>
+          <li>Cobwebs <strong>*x64*</strong></li>
+          <li>Wind Charges <strong>*Unlimited*</strong></li>
+          <li>Chorus Fruit <strong>*x16*</strong></li>
+        </ul>
+
+        <h3 class="section-title" style="color: #ff4d4d;">Banned Items</h3>
+        <p>These items are completely banned from the SMP. Do not craft, use, or store them:</p>
+        <ul>
+          <li>Explosives of any kind <em>(except for minecart traps)</em></li>
+          <li>Tipped Arrows</li>
+          <li>Netherite</li>
+        </ul>
+      </div>
+      <div class="kit-image">
+        <img src="https://cdn.discordapp.com/attachments/1361447828312031469/1378452066539933787/23BB9A6B-1F93-4D4A-B695-19A39BAF852F.png?ex=683ca707&is=683b5587&hm=dbbdfaf1fbb2213b1be388dec1c3da1f085e15718b07f9742d698a0b9df0862f&" alt="Kit Image" />
+        <div class="kit-button">
+          <a href="https://kits.pvplegacy.net/J5BO2" target="_blank">Server Kit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Alchemy SMP. Coming Soon!.
+  </footer>
+
+</body>
+</html>
